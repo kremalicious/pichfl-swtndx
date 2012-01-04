@@ -138,3 +138,38 @@ table th {
 
 .zebra-striped tbody tr:hover td,.zebra-striped tbody tr:hover th {
 	background-color: rgba(255,255,255,.3) }
+	
+
+/* ============================================================== */
+/*   Media Queries for Responsive Design */
+/*  ============================================================== */
+
+@media only screen and (max-width: 480px) {
+	
+	body{
+		padding: 6px;
+	}
+	
+	table {
+		max-width: 100%;
+		table-layout: auto
+	}
+	
+	table th, table td {
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	
+	td[align=right] {
+		font-size: .7em;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	td[align=right] {
+		font-size: .8em;
+	}
+
+}
