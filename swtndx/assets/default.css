@@ -19,7 +19,6 @@ ol strong{
 
 body > table,
 body > section > table{
-	border: 1px solid #ccc;
 	border-collapse:separate;
 	*border-collapse:collapse;
 	-webkit-border-radius:4px;
