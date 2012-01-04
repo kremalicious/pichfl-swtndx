@@ -17,7 +17,7 @@
 	# Examples: 
 	# - application/x-httpd-php
 	# - php-fcgid
-	AddHandler      php-fcgid .uihtml
+	AddHandler      application/x-httpd-php .uihtml
 	
 	# Configure Indexing
 	# These are many settings, learn more about them here:
