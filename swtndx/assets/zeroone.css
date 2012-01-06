@@ -69,13 +69,6 @@ body > section > table img{
 	margin: -5px 0;
 }
 
-body > table th+th,
-body > section > table th+th,
-body > table td+td,
-body > section > table td+td{
-	border-left: 1px solid #ddd;
-}
-
 body > table th:nth-child(3),
 body > section > table th:nth-child(3),
 body > table td:nth-child(3),
