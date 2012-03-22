@@ -6,7 +6,11 @@
 	//Configuration
 	
 	//CSS filename (path relative to the swtndx folder)
+<<<<<<< HEAD
 	$css = 'assets/zeroone.css';
+=======
+	$css = 'assets/minimal.min.css';
+>>>>>>> master
 	
 	//Should readme files be displayed as aside content?
 	$show_readme = true; //set to false if not.
